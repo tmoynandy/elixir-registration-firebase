@@ -63,3 +63,5 @@ function saveRegistration(name, college, email, phone, event){
     event:event
   });
 }
+
+
