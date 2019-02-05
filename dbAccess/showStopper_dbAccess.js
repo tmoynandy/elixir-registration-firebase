@@ -33,7 +33,7 @@ var database = firebase.database();
             var content = '';
             snapshot.forEach(function(data){
                 var val = data.val();
-                if (val.event === "Break Free") {
+                if (val.event === "Show Stopper") {
                 	content +='<tr>';
 	                content += '<td>' + val.name + '</td>';
 	                content += '<td>' + val.email + '</td>';
